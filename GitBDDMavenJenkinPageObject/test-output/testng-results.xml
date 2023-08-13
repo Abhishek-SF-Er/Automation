@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="9" passed="7" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-28T03:22:28Z" name="Default suite" finished-at="2023-05-28T03:24:34Z" duration-ms="125596">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-28T03:22:28Z" name="Default test" finished-at="2023-05-28T03:24:34Z" duration-ms="125596">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:52:28Z" name="setUpClass" finished-at="2023-05-28T08:52:30Z" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:52:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:52:45Z" duration-ms="15787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for valid admin manager"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing actitime application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:52:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:52:54Z" duration-ms="8608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for invalid admin12 manager"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing actitime application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:52:54Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:53:03Z" duration-ms="8978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Testing actitime login functionality for invalid admin manager23"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing actitime application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:53:03Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:53:12Z" duration-ms="9456" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Selenium 3.0 in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Perform Google Search based on requirement]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Selenium 3.5 - Google Search] but found [Selenium 3.0 - Google Search]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Selenium 3.5 - Google Search] but found [Selenium 3.0 - Google Search]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at stepdefinitions.TestGoogleSearch_StepDef.user_reached_to_search_result_page_with_the_title(TestGoogleSearch_StepDef.java:34)
+	at ✽.user reached to search result page with the title Selenium 3.5 - Google Search(file:///F:/GitAutomation/MorningBatch1/GitBDDMavenJenkinPageObject/src/test/resources/features/GoogleSearch.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:53:12Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:53:27Z" duration-ms="15074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Selenium 4.0 in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Perform Google Search based on requirement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:53:27Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:53:38Z" duration-ms="10344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search selenium interview questions in Google search page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Perform Google Search based on requirement]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:53:38Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:53:46Z" duration-ms="7935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Login page components"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[As user, I want to verify OrangeHRM login page functionaliy]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:53:46Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:54:10Z" duration-ms="24013" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify PIM creation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test PIM functionality of OrangeHRM application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [(1) Record Found] but found [(62) Records Found]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [(1) Record Found] but found [(62) Records Found]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at stepdefinitions.TestOrangeHrmPim_StepDef.user_should_be_able_to_search_newly_added_employee(TestOrangeHrmPim_StepDef.java:52)
+	at ✽.user should be able to search newly added employee(file:///F:/GitAutomation/MorningBatch1/GitBDDMavenJenkinPageObject/src/test/resources/features/OrangeHrmPIM.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:54:10Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-28T08:54:32Z" duration-ms="22433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify PIM deletion"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test PIM functionality of OrangeHRM application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7ae0a9ec]" started-at="2023-05-28T08:54:32Z" name="tearDownClass" finished-at="2023-05-28T08:54:34Z" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
